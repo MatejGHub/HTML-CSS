@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+}
+
+.div1 {
+  background-color: lightcoral;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.div2 {
+  background-color: lightblue;
+  position: fixed;
+  width: 50px;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+/*Flexbox Header*/
+
+.headerflexbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  position: sticky;
+  top: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(211, 211, 211);
+  z-index: -1;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+#img1 {
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#headertitle {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#addfriendbutton {
+  background-color: rgb(64, 64, 248);
+  color: white;
+  font-weight: bold;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+#messagebutton {
+  background-color: rgb(239, 239, 239);
+  color: black;
+  font-weight: bold;
+  padding: 4px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+/*Double-Sidebar*/
+.first-sidebar {
+  position: fixed;
+  width: 70px;
+  bottom: 0;
+  top: 45px;
+  background-color: rgb(37, 37, 37);
+  padding-left: 8px;
+  padding-top: 10px;
+}
+
+#image12,
+#image22,
+#image32 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin-top: 7px;
+}
+
+.second-sidebar {
+  position: fixed;
+  left: 70px;
+  width: 120px;
+  top: 45px;
+  bottom: 0px;
+  background-color: rgb(77, 77, 77);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.second-sidebar-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#info {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#plus {
+  color: gray;
+  font-weight: bold;
+}
+
+#new-videos,
+#updates,
+#faq {
+  color: gray;
+  margin-top: 0;
+  font-family: Arial;
+  font-size: 14px;
+}

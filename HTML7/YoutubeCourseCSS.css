@@ -1,0 +1,562 @@
+/*
+.images {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.search-bar {
+  border-radius: 20px;
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  min-width: 250px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.paragraph {
+  margin-bottom: 5px;
+  color: gray;
+  font-size: 14px;
+}
+
+.search-bar2 {
+  min-width: 250px;
+  height: 20px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.description {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.button {
+  color: white;
+  background-color: rgb(11, 119, 244);
+  font-weight: bold;
+  height: 30px;
+  width: 250px;
+  border-radius: 20px;
+  border: none;
+}
+
+.images2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.textboxes {
+  border: none;
+}
+
+.button3 {
+  color: white;
+  background-color: rgb(11, 119, 244);
+  font-weight: bold;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  vertical-align: middle;
+}
+
+.verticalalign {
+  margin-top: 30px;
+  vertical-align: middle;
+}
+
+#textbox1 {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+#textbox2 {
+  display: block;
+}
+
+#minwidth {
+  max-width: 200px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#confirm {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#decline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img9 {
+  width: 100px;
+  display: block;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.search-bar2 {
+  margin: 0 auto;
+  display: flex;
+}
+
+
+.signupform {
+  color: gray;
+  border-radius: 10px;
+}
+
+#inputname {
+  display: inline-block;
+  border-radius: 5px;
+  width: 90px;
+  border-width: 1px;
+  border-color: rgb(205, 205, 205);
+  font-weight: bold;
+}
+
+#inputname2 {
+  display: inline-block;
+  border-radius: 5px;
+  width: 90px;
+  border-width: 1px;
+  border-color: rgb(205, 205, 205);
+  font-weight: bold;
+}
+
+#inputemail {
+  margin-top: 5px;
+  display: block;
+  border-radius: 5px;
+  width: 190px;
+  border-width: 1px;
+  border-color: rgb(205, 205, 205);
+  font-weight: bold;
+}
+
+#signup {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(13, 93, 253);
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  margin-top: 5px;
+  text-align: center;
+}
+8e excercise
+#requestride {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-family: Arial;
+}
+
+#pickup {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(246, 246, 246);
+  border: none;
+  display: block;
+  margin-top: 10px;
+}
+
+#destination {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(246, 246, 246);
+  border: none;
+  display: block;
+  margin-top: 5px;
+}
+
+#signup2 {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#schedule {
+  margin-left: 23px;
+  margin-right: 23px;
+  height: 30px;
+  background-color: rgb(246, 246, 246);
+  border: none;
+  margin-top: 0;
+  align-items: center;
+}
+
+
+.video-preview {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.square {
+  height: fit-content;
+  border: 1px solid #d3d3d3;
+  width: 400px;
+  background-color: rgb(37, 36, 36);
+  padding-left: 20px;
+}
+
+#installyt {
+  margin-top: 5;
+  margin-bottom: 10;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#addyt {
+    color: rgb(212, 210, 210);
+    width: 350px;
+    margin-bottom: 10;
+}
+
+.verticalalign {
+  border-radius: 5px;
+  margin-top: 30px;
+  vertical-align: middle;
+  border-width: 1px solid;
+  box-shadow: 1px 1px 10px rgb(98, 97, 97);
+  width: fit-content;
+  padding: 5px 15px;
+}
+
+.images2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.textboxes {
+  border: none;
+}
+
+.button3 {
+  color: white;
+  background-color: rgb(11, 119, 244);
+  font-weight: bold;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+  vertical-align: middle;
+}
+
+.profileinfo {
+  display: inline-block;
+  box-shadow: 1px 1px 10px rgb(197, 197, 197);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#profilepic {
+  width: 150px;
+  height: 150px;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+#profilename {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+#mutualfriends {
+  font-size: smaller;
+  color: rgb(186, 186, 186);
+  margin-top: 4;
+  margin-bottom: 8;
+}
+
+#addfriend {
+  padding: 5px 10px;
+  background-color: rgb(29, 118, 243);
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.centered {
+  text-align: center;
+}
+
+.img9 {
+  width: 300px;
+  display: block;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.search-bar2 {
+  margin: 0 auto;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgb(188, 188, 188);
+  width: 700px;
+  height: 35px;
+  border: none;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
+#search,
+#random {
+  padding: 5px 30px;
+  margin-top: 50px;
+  font-size: 12px;
+  border: none;
+  display: flex;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.thumbnail {
+  width: 300px;
+  border: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.profilelogo {
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.videoinfo {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  font-family: Roboto;
+}
+
+.videotitle {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.chanelname,
+.videostats {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.image,
+.images,
+.information,
+.buttons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image {
+  margin-left: 20px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+.images {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+#catname {
+  font-weight: bold;
+}
+
+#catname,
+#animalname,
+#status {
+  font-family: Roboto;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+#animalname,
+#status {
+  color: rgb(95, 95, 95);
+}
+
+#followbutton {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(37, 121, 229);
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.fulldiv {
+  box-shadow: 1px 1px 10px rgb(135, 135, 135);
+  padding-right: 10px;
+}
+
+.images {
+  display: inline-block;
+}
+
+#image1 {
+  width: 160px;
+  height: 150px;
+}
+
+#catname,
+#mutualfriend,
+button {
+  font-family: Roboto;
+}
+
+#catname {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#image2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: top;
+  color: rgb(96, 96, 96);
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+#mutualfriend {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+#button {
+  background-color: rgb(53, 109, 240);
+  color: white;
+  font-weight: bold;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.div1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+}
+
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 300px;
+}
+
+.thumbnail {
+  width: 300px;
+  border: none;
+  margin-right: 15px;
+}
+
+.profilelogo {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.videoinfo {
+  display: inline-block;
+  vertical-align: top;
+  font-family: Roboto;
+}
+
+.videotitle {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.chanelname,
+.videostats {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.image,
+.images,
+.information,
+.buttons {
+  vertical-align: middle;
+}
+
+.image {
+  margin-left: 20px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+.images {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.grid123 {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.testdiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 200px;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+*/

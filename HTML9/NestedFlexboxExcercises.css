@@ -1,0 +1,245 @@
+/*First Excercise*/
+
+.flexbox {
+  display: flex;
+}
+
+#text {
+  background-color: black;
+  color: white;
+}
+
+#flexbox1 {
+  width: 200px;
+  height: 30px;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#flexbox2 {
+  background-color: lightblue;
+  width: 100px;
+  height: 30px;
+}
+
+/*Second Excercise*/
+.mainflexbox {
+  display: flex;
+  margin-top: 10px;
+}
+
+.flexbox-first {
+  width: 100px;
+  height: 50px;
+  background-color: lightblue;
+}
+
+.flexbox-second {
+  background-color: lightcoral;
+  width: 100px;
+  height: 50px;
+}
+
+.textflexbox1 {
+  font-size: 12px;
+}
+
+p {
+  flex: start;
+  margin-top: 1px;
+  margin-bottom: 0;
+  color: white;
+}
+
+.textflexbox2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Third Excercise*/
+/*Gmail Flexbox*/
+.gmailflexbox {
+  margin-top: 10px;
+  height: 120px;
+  width: 350px;
+  border: 1px solid rgba(195, 195, 195);
+  box-shadow: 1px 1px 10px rgba(202, 202, 202);
+  font-family: Arial;
+}
+/*All Inboxes*/
+.allinboxes {
+  color: rgb(162, 162, 162);
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+/*Gmail Info*/
+.gmail-info {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+#profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.gmail-text {
+  width: 300px;
+  height: 80px;
+  margin-left: 5px;
+}
+
+.gmail-sender-recieve-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+#gmail-sender {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
+#gmail-recieve-time {
+  font-size: 9px;
+  color: rgb(118, 118, 118);
+  margin-right: 10px;
+}
+
+#gmail-sender,
+#gmail-recieve-time {
+  display: inline-block;
+}
+
+#gmail-subject {
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 5px;
+  color: black;
+}
+
+#gmail-content {
+  color: rgb(122, 122, 122);
+  font-size: 11px;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+/*Fourth Excercise*/
+.maindiv {
+  margin-top: 20px;
+  border: 1px solid rgba(195, 195, 195);
+  box-shadow: 1px 1px 10px rgba(202, 202, 202);
+}
+
+.gmailflexbox1 {
+  margin-top: 20px;
+  height: 120px;
+  width: 360px;
+  font-family: Arial;
+  margin-bottom: 0;
+}
+
+/*Fifth Excercise*/
+.main-flexbox {
+  width: 500px;
+  height: 200px;
+  display: flex;
+}
+
+.content-info {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.upper-right-grid {
+  padding-left: 5px;
+}
+
+.left-section {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#profile-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+#upper-right-section {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 8px;
+  margin-right: 8px;
+  align-items: center;
+}
+
+#left-side {
+  font-weight: bold;
+  color: black;
+  margin-right: 5px;
+}
+
+#right-side {
+  color: rgb(118, 118, 118);
+  font-size: 15px;
+}
+
+#upper-second-row {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 17px;
+  color: black;
+  font-family: Arial;
+  line-height: 1.1;
+}
+
+.lower-right-section {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+#lower-img-left {
+  width: 70px;
+  height: 100px;
+  border-start-start-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  box-shadow: inset 1px 1px 10px rgba(162, 162, 162, 0.15);
+}
+
+.lower-right {
+  padding-left: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  box-shadow: inset 1px 1px 10px rgba(162, 162, 162, 0.15);
+  height: 100px;
+  width: 280px;
+  margin-left: -1px;
+}
+
+#youtubecom {
+  padding-top: 10px;
+  color: gray;
+  font-size: 16px;
+}
+
+#youtube-title {
+  font-size: 20px;
+  color: black;
+}

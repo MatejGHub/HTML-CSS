@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  max-width: 1800px;
+  background-color: lightblue;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+}
+
+.left-section {
+  width: 30%;
+  display: flex;
+  margin-left: 2%;
+}
+
+.portfolio-logo {
+  width: 40%;
+}
+
+.middle-section {
+  width: 55%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.right-section {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  margin-right: 0;
+}
+
+.button {
+  padding: 10% 20%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(77, 77, 239);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
